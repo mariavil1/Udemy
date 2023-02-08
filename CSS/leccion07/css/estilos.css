@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Roboto&display=swap');
+
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #cde4da;
+    font-family:'Princess Sofia', cursiva;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuente_Roboto{
+    /*
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 20px;
+    */
+    /*font: font-style font-variant font-weight font-size/line-height font-family*/
+    font: italic small-caps bolder 20px Roboto, sans-serif;
+}
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.caja.sans-serif{
+    background-color: #2990d4;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.caja.monospace{
+    background-color: #ef476f;
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.caja.cursive{
+    background-color: #daaa28;
+}
+.fuente_lucida{
+    font-family: 'Lucida Handwriting', cursive;
+}

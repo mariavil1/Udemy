@@ -1,0 +1,9 @@
+body{
+    color: cornsilk;
+    background-attachment: fixed;
+    background: dodgerblue url("/img/fondo.png") no-repeat right top;
+}
+h1{
+    text-align: center;
+    background-color: rgb(57, 203, 240);
+}
